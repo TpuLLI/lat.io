@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" type="text/css" href="build/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="build/css/all.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="header row">
+      <a href="#" class="logo-link"></a>
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-right h-menu">
+          <li class="h-menu__item h-menu__item_active">
+            <a href="#" class="h-menu__link">Link</a>
+          </li>
+          <li class="h-menu__item ">
+            <a href="#" class="h-menu__link">Link</a>
+          </li>
+          <li class="h-menu__item ">
+            <a href="#" class="h-menu__link">Link</a>
+          </li>
+          <li class="h-menu__item ">
+            <a href="#" class="h-menu__link">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+
+    </div>
+  </div>
+</body>
+</html>
+
+
+<!-- css -->
+.container-fluid
+  background: green
+
+.logo-link
+  float: left
+  width: 142px
+  height: 42px
+  margin: 20px 80px 20px 100px
+  background: url(../../img/logo.png)
+
+.h-menu
+
+  &__link
+    font-size: 17px
+    color: #fff
+    font-weight: 600
+    text-transform: uppercase
+
+    &:hover
+      background-color: transparent !important
+      color: #fff
+
+  &__item
+
+
+    &_active
+      border-bottom: 1px solid #fff
