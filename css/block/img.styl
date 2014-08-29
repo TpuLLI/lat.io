@@ -6,7 +6,6 @@
     box-sizing: border-box;
 
     &_circle
-      background: #6e5baa
       border: 5px solid #8978B0
       border-radius: 50%
 
@@ -17,6 +16,7 @@
     box-sizing: border-box;
 
     &_square
+      border: 5px solid #8978B0
       background: #6e5baa
 
   &__double
@@ -24,7 +24,12 @@
     height: 150px
 
     &_position
-      float: left
+      padding-left: 100px
+
+    @media screen and (max-width 1200px)
+      float: none
+
+    @media screen and (max-width 480px)
       padding-left: 100px
 
 
