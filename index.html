@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic">
   <link rel="stylesheet" type="text/css" href="build/css/all.css">
   <title>Document</title>
 </head>
@@ -11,7 +12,7 @@
       <div class="header__top-line">
         <a href="#" class="header__logo icon icon_big icon_logo"></a>
         <div class="header__menu menu">
-          <ul class="menu__list fonts fonts_menu">
+          <ul class="menu__list fonts fonts_normal fonts_thin">
             <li class="menu__item menu__item_active align align_inline">
               <a href="#" class="link link_white">BUY IBEACONS</a>
             </li>
@@ -28,44 +29,48 @@
         </div>
         <div class="clearfix"></div>
       </div>
-      <h1 class="header__title fonts fonts_h1">Build iBeacon Apps.</h1>
-      <h2 class="header__title header__title_medium fonts fonts_h2">Not infrastructure for them.</h2>
-      <a href="#" class="header__link fonts fonts_button link link_white link_swamp align align_cent">
+      <h1 class="header__title fonts fonts_h1 fonts_thin">
+        Build iBeacon Apps.
+      </h1>
+      <h2 class="header__title header__title_medium fonts fonts_h2 fonts_thin">
+        Not infrastructure for them.
+      </h2>
+      <a href="#" class="header__link fonts fonts_medium link link_white link_swamp align align_cent">
           Get access for free
       </a>
     </div>
     <div class="wrapper_content content">
       <div class="content__text">
-        <h3 class="content__title fonts fonts_h3 align align_inline">
+        <h3 class="content__title fonts fonts_h3 fonts_thin align align_inline">
           We provide you with all needed code
         </h3>
-        <p class="content__sentence fonts fonts_menu align align_inline">
+        <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
           Don't spend your precious time designing Backend routines and Database schemas for iBeacon functionalities, we've done that for you.
         </p>
-        <p class="content__sentence fonts fonts_menu align align_inline">
+        <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
           Don't worry about constant changes in iOS / Android BLE functionalitites.
         </p>
-        <p class="content__sentence fonts fonts_menu align align_inline">
+        <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
           Create content and simply wait for the real-world events to appear in your app.
         </p>
-        <p class="content__sentence fonts fonts_menu align align_inline">
+        <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
           We support all beacon hardware that advertises UUID.
         </p>
         <div class="content__nav nav">
-          <ul class="nav__list fonts fonts_button">
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Screens</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Notifications</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Webpages</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Custom UI elements</a>
-            </li>
-          </ul>
+          <div class="nav__list fonts fonts_medium">
+            <a href="#" class="nav__item link link_white align align_inline align_cent">
+              Screens
+            </a>
+            <a href="#" class="nav__item link link_white align align_inline align_cent">
+              Notifications
+            </a>
+            <a href="#" class="nav__item link link_white align align_inline align_cent">
+              Webpages
+            </a>
+            <a href="#" class="nav__item link link_white align align_inline align_cent">
+              Custom UI elements
+            </a>
+          </div>
         </div>
       </div>
       <div class="content__img img align align_inline">
@@ -77,31 +82,98 @@
         <img src="" class="img__page img__page_square">
       </div>
       <div class="content__text">
-        <h3 class="content__title fonts fonts_h3 align align_inline">
+        <h3 class="content__title fonts fonts_h3 fonts_thin align align_inline">
           Integrate in minutes. Use with ease.
         </h3>
-        <p class="content__sentence fonts fonts_menu align align_inline">
+        <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
           Set up our mobile SDK and register your app in our CMS. Then manage your beacons and map content to them with a wide range of rules.
         </p>
         <div class="content__nav nav">
-          <ul class="nav__list fonts fonts_button">
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Screens</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Notifications</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Webpages</a>
-            </li>
-            <li class="nav__item align align_inline align_cent">
-              <a href="#" class="link link_white">Custom UI elements</a>
-            </li>
-          </ul>
+          <div class="nav__list fonts fonts_medium">
+            <a href="#" class="nav__item align link link_white align align_inline align_cent">
+              Screens
+            </a>
+            <a href="#" class="nav__item align link link_white align align_inline align_cent">
+              Notifications
+            </a>
+            <a href="#" class="nav__item align link link_white align align_inline align_cent">
+              Webpages
+            </a>
+            <div class="nav__list nav__list_line fonts fonts_medium">
+              <a href="#" class="nav__item align link link_white align align_inline align_cent">
+                Custom UI elements
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <div class="wrapper_content content">
+      <div class="content__another-page">
+        <h2 class="content__title fonts fonts_h2-big fonts_thin align align_cent">
+          We've built stuff with our solution
+        </h2>
+        <div class="content__text content__text_normal">
+          <h3 class="content__title fonts fonts_h3 fonts_thin align align_inline">
+            Latio app - iBeacon in restaurants
+          </h3>
+          <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
+            We've spent about 1.5 months to design, develop whole infrastructure (SDK, API, CMS for restaurants)
+          </p>
+          <div class="content__article article">
+            <img src="img/itcraft.png" class="article__logo icon icon_medium">
+            <p class="fonts fonts_normal fonts_thin">
+              "Users benefit by receiving invitations and detailed information from restaurants when passing them by, as well as browsing digital menus with prices and photos near or inside restaurants."
+              <span class="article__link fonts fonts_link">
+                <a href="#" class="link link_blue">http://itechcraft.com/ibeacon_restaurants/</a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content__img content__img_double img">
+          <img src="img/" class="img__double img__double_position align">
+          <img src="img/" class="img__double align">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="content__another-page content__another-page_pos">
+        <div class="content__text content__text_normal">
+          <h3 class="content__title fonts fonts_h3 fonts_thin align align_inline">
+            Busio app - iBeacon in transport
+          </h3>
+          <p class="content__sentence fonts fonts_normal fonts_thin align align_inline">
+            We've spent about 1 day and used our SDK to build this one from scratch, impressive huh?
+          </p>
+          <div class="content__article article">
+            <img src="img/chasopys.jpg" class="article__logo icon icon_small">
+            <p class="fonts fonts_normal fonts_thin">
+              "Busio - usage of iBeacon (Bluetooth beacons) to receive information about transport near you (routes, prices)"
+              <span class="article__link fonts fonts_link">
+                <a href="#" class="link link_blue">http://www.chasopys.ua/</a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="content__img content__img_double img">
+          <img src="img/" class="img__double img__double_position align">
+          <img src="img/" class="img__double align">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="wrapper_footer footer">
+      <div class="footer__content align align_cent">
+        <h2 class="footer__title fonts fonts_extra">
+          Lowcost Hardware DevKits
+        </h2>
+        <p class="footer__text fonts fonts_normal fonts_thin">
+          We don't make hardware but we have awesome partners
+        </p>
+        <a href="#" class="footer__link fonts fonts_medium link link_white alidn">
+            Tweet to contact us about a $50 DevKit
+        </a>
+      </div>
+    </div>
   </div>
-
 </body>
 </html>

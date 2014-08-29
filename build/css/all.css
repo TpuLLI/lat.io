@@ -1,3 +1,251 @@
+@font-face {
+  font-family: 'Open Sans';
+}
+
+.align {
+  display: block;
+}
+.align_inline {
+  display: inline-block;
+}
+.align_top {
+  vertical-align: top;
+}
+.align_cent {
+  text-align: center;
+}
+
+.article__logo {
+  margin-right: 10px;
+  float: left;
+}
+.article__link {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.content__text {
+  margin-top: 150px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.content__text_normal {
+  margin-top: 20px;
+}
+.content__title {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #6e5baa;
+}
+.content__sentence {
+  margin-bottom: 10px;
+  color: #4c4c4c;
+}
+.content__article {
+  padding-top: 35px;
+  overflow: hidden;
+}
+.content__img {
+  margin-top: 120px;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.content__img_double {
+  margin-top: 10px;
+}
+.content__another-page {
+  margin-top: 170px;
+}
+.content__another-page_pos {
+  margin-top: 50px;
+}
+
+.fonts {
+  font-family: 'Open Sans', sans-serif;
+}
+.fonts_normal {
+  font-size: 17px;
+}
+.fonts_medium {
+  font-size: 16px;
+}
+.fonts_h1 {
+  font-size: 64px;
+}
+.fonts_h2 {
+  font-size: 35px;
+}
+.fonts_extra {
+  font-size: 38px;
+}
+.fonts_h2-big {
+  font-size: 44px;
+}
+.fonts_h3 {
+  font-size: 28px;
+}
+.fonts_link {
+  font-size: 14px;
+  font-style: italic;
+}
+.fonts_thin {
+  font-weight: 300;
+}
+
+.footer__content {
+  padding: 120px 0;
+  width: 100%;
+}
+.footer__title {
+  color: #6e5baa;
+}
+.footer__text {
+  color: #4c4c4c;
+  margin-bottom: 50px;
+}
+.footer__link {
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 14px;
+  min-width: 240px;
+  max-width: 340px;
+  background: #6e5baa;
+}
+
+.header__top-line {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.header__logo {
+  float: left;
+}
+.header__menu {
+  margin-top: 17px;
+  float: right;
+}
+.header__title {
+  color: #fff;
+  text-align: center;
+  margin-top: 150px;
+}
+.header__title_medium {
+  margin: 20px 0 20px 0;
+  color: #242424;
+}
+.header__link {
+  margin: 0 auto;
+  padding: 13px 40px;
+  max-width: 180px;
+  min-width: 150px;
+}
+
+.icon_big {
+  width: 140px;
+  height: 40px;
+}
+.icon_medium {
+  width: 82px;
+}
+.icon_small {
+  width: 47px;
+}
+.icon_logo {
+  background: url("../../img/logo.png");
+}
+
+.img__content {
+  width: 350px;
+  height: 350px;
+  box-sizing: border-box;
+}
+.img__content_circle {
+  background: #6e5baa;
+  border: 5px solid #8978b0;
+  border-radius: 50%;
+}
+.img__page {
+  margin-right: 40px;
+  width: 465px;
+  height: 286px;
+  box-sizing: border-box;
+}
+.img__page_square {
+  background: #6e5baa;
+}
+.img__double {
+  width: 150px;
+  height: 150px;
+}
+.img__double_position {
+  float: left;
+  padding-left: 100px;
+}
+
+.link {
+  text-decoration: none;
+}
+.link_white {
+  color: #fff;
+}
+.link_swamp {
+  background: #2f632f;
+  border-radius: 3px;
+}
+.link_blue {
+  color: #448cca;
+}
+
+.menu__item {
+  margin-right: 20px;
+  padding-bottom: 2px;
+}
+.menu__item_active {
+  border-bottom: 1px solid #fff;
+}
+
+.nav__item {
+  min-width: 80px;
+  max-width: 220px;
+  padding: 8px 12px;
+  background: #6e5baa;
+  border-radius: 3px;
+}
+.nav__list_line {
+  margin-top: 5px;
+}
+
+html,
+body,
+wrapper {
+  height: 100%;
+}
+.wrapper_page {
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.wrapper__header {
+  padding-bottom: 150px;
+  background-image: radial-gradient(at 50% top, rgba(141,213,94,0.6) 0%, rgba(84,90,182,0) 75%), radial-gradient(at right top, #4aa266 0%, rgba(121,74,162,0) 57%);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  background-color: #2f632f;
+}
+.wrapper_content {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 [hidden] {
   display: none;
 }
@@ -277,160 +525,3 @@ body,
   height: 100%;
 }
 
-
-@font-face {
-  font-family: 'Open Sans';
-}
-
-.align {
-  display: block;
-}
-.align_inline {
-  display: inline-block;
-}
-.align_top {
-  vertical-align: top;
-}
-.align_cent {
-  text-align: center;
-}
-
-.content__text {
-  margin-top: 150px;
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-}
-.content__title {
-  margin: 0 auto;
-  padding-bottom: 20px;
-  text-align: center;
-  color: #6e5baa;
-}
-.content__sentence {
-  margin-bottom: 10px;
-  color: #4c4c4c;
-}
-.content__img {
-  margin-top: 120px;
-  width: 50%;
-  float: left;
-  text-align: center;
-}
-
-.fonts_menu {
-  font-size: 17px;
-}
-.fonts_h1 {
-  font-size: 64px;
-}
-.fonts_h2 {
-  font-size: 35px;
-}
-.fonts_h3 {
-  font-size: 28px;
-}
-.fonts_button {
-  font-size: 17px;
-}
-
-.header__top-line {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 30px;
-  overflow: hidden;
-}
-.header__logo {
-  float: left;
-}
-.header__menu {
-  margin-top: 17px;
-  float: right;
-}
-.header__title {
-  color: #fff;
-  text-align: center;
-  margin-top: 150px;
-}
-.header__title_medium {
-  margin: 20px 0 20px 0;
-  color: #000;
-}
-.header__link {
-  margin: 0 auto;
-  padding: 13px 40px;
-  max-width: 180px;
-  min-width: 150px;
-}
-
-.icon_big {
-  width: 140px;
-  height: 40px;
-}
-.icon_logo {
-  background: url("../../img/logo.png");
-}
-
-.img__content {
-  width: 350px;
-  height: 350px;
-  box-sizing: border-box;
-}
-.img__content_circle {
-  background: #6e5baa;
-  border: 5px solid #8978b0;
-  border-radius: 50%;
-}
-.img__page {
-  margin-right: 40px;
-  width: 465px;
-  height: 286px;
-  box-sizing: border-box;
-}
-.img__page_square {
-  background: #6e5baa;
-}
-
-.link_white {
-  color: #fff;
-  text-decoration: none;
-}
-.link_swamp {
-  background: #2f632f;
-  border-radius: 3px;
-}
-
-.menu__item {
-  margin-right: 20px;
-  padding-bottom: 2px;
-}
-.menu__item_active {
-  border-bottom: 1px solid #fff;
-}
-
-.nav__item {
-  min-width: 80px;
-  max-width: 220px;
-  padding: 8px 12px;
-  background: #6e5baa;
-  border-radius: 3px;
-}
-
-.wrapper_page {
-  margin: 0 auto;
-  min-height: 100%;
-  height: auto;
-  box-sizing: border-box;
-}
-.wrapper__header {
-  padding-bottom: 150px;
-  background-image: radial-gradient(at 50% top, rgba(141,213,94,0.6) 0%, rgba(84,90,182,0) 75%), radial-gradient(at right top, #4aa266 0%, rgba(121,74,162,0) 57%);
-  background-repeat: no-repeat;
-  background-size: 100% 1000px;
-  background-color: #2f632f;
-}
-.wrapper_content {
-  width: 80%;
-  margin: 0 auto;
-  overflow: hidden;
-}
